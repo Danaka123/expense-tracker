@@ -78,7 +78,7 @@ export default function ExpenseList({ expenses, onDelete }) {
                   </span>
                   <button
                     onClick={() => onDelete(expense.id)}
-                    className="w-6 h-6 rounded-lg flex items-center justify-center text-stone-300 hover:text-red-400 hover:bg-red-50 transition-all duration-150 opacity-0 group-hover:opacity-100"
+                    className="w-6 h-6 rounded-lg flex items-center justify-center text-stone-300 hover:text-red-400 hover:bg-red-50 transition-all duration-150"
                     aria-label="Usuń"
                   >
                     ×

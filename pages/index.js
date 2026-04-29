@@ -17,7 +17,7 @@ export default function Home() {
 
   if (!loaded) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-stone-50">
+      <div className="min-h-screen" style={{backgroundColor: 'transparent'}}>
         <div className="w-6 h-6 border-2 border-stone-300 border-t-stone-700 rounded-full animate-spin" />
       </div>
     )
