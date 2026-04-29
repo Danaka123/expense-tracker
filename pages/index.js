@@ -32,12 +32,12 @@ export default function Home() {
         <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💸</text></svg>" />
       </Head>
 
-      <div className="min-h-screen bg-stone-50">
+      <div className="min-h-screen bg-stone-50" style={{backgroundColor: '#876755ff'}}>
         {/* Header */}
         <header className="sticky top-0 z-10 bg-stone-50/90 backdrop-blur-sm border-b border-stone-100">
           <div className="max-w-2xl mx-auto px-4 py-4 flex items-baseline justify-between">
             <div>
-              <h1 className="font-display text-xl font-medium text-stone-800 tracking-tight">
+              <h1 className="font-display text-xl font-medium text-stone-800 tracking-tight" >
                 Tracker Wydatków
               </h1>
               <p className="text-xs text-stone-400 mt-0.5 capitalize">{getMonthLabel()}</p>
